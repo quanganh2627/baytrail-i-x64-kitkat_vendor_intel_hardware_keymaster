@@ -31,7 +31,7 @@
 #include <openssl/err.h>
 #include <openssl/x509.h>
 
-#include <utils/UniquePtr.h>
+#include <UniquePtr.h>
 #include <cutils/properties.h>
 
 // For debugging

@@ -1,4 +1,3 @@
-ifeq (0,1) #LPDK disable
 # Copyright (C) 2012 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -27,4 +26,3 @@ LOCAL_SHARED_LIBRARIES := libcutils libcrypto liblog libkeystore_binder libkeyma
 LOCAL_MODULE_TAGS := optional
 LOCAL_ADDITIONAL_DEPENDENCIES := $(LOCAL_PATH)/Android.mk
 include $(BUILD_SHARED_LIBRARY)
-endif
